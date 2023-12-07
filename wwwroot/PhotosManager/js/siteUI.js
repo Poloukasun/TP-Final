@@ -517,7 +517,6 @@ function renderEdit() {
         `)
     );
     initFormValidation();
-    initImageUploaders();
     $('#abortCmd').on('click', renderPhotos); // call back sur clic
     // ajouter le mécanisme de vérification de doublon de courriel
     addConflictValidation(API.checkConflictURL(), 'Email', 'saveUser');
